@@ -15,8 +15,6 @@ public class QueryProcessor {
         if (query.toLowerCase().contains("name")) {
             return "LIFEWTR";
         }
-         if (query.toLowerCase().contains("what is 13 plus 14")) {
-            return "27" ;
         return "";
-    }
+        }
 }

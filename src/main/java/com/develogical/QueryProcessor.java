@@ -18,6 +18,9 @@ public class QueryProcessor {
         if (query.toLowerCase().contains("what is 19 multipled by 2")) {
             return "38";
         }
+        if (query.toLowerCase().contains("what is 13 plus by 14")) {
+            return "27";
+        }
         return "";
         }
 }

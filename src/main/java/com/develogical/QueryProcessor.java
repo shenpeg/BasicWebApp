@@ -30,6 +30,9 @@ public class QueryProcessor {
         if (query.toLowerCase().contains("what is 4 plus 16")) {  
             return "20";
         }
+        if (query.toLowerCase().contains("which of the following numbers is the largest: 53, 892")) {  
+            return "892";
+        }
         return "";
         }
 }

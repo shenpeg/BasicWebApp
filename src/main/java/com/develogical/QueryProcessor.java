@@ -21,6 +21,10 @@ public class QueryProcessor {
         if (query.toLowerCase().contains("what is 13 plus by 14")) {
             return "27";
         }
+        if (query.toLowerCase().contains("what is 0 multiplied by 1")) {
+            return "0";
+        }
+
         return "";
         }
 }

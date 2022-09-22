@@ -13,7 +13,7 @@ public class QueryProcessor {
                     "without realizing it, often for long periods of time " ;
         }
         if (query.toLowerCase().contains("name")) {
-            return "MyTeam";
+            return "LIFEWTR";
         }
         return "";
     }

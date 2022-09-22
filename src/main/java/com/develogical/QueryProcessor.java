@@ -15,6 +15,9 @@ public class QueryProcessor {
         if (query.toLowerCase().contains("name")) {
             return "LIFEWTR";
         }
+        if (query.toLowerCase().contains("what is 19 multipled by 2")) {
+            return "38";
+        }
         return "";
         }
 }

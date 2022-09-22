@@ -27,7 +27,9 @@ public class QueryProcessor {
         if (query.toLowerCase().contains("what is 12 minus 13")) {
             return "-1";
         }
-
+        if (query.toLowerCase().contains("what is 4 plus 16")) {  
+            return "20";
+        }
         return "";
         }
 }

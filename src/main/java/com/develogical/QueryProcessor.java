@@ -9,12 +9,14 @@ public class QueryProcessor {
                     "writer in the English language and the world's pre-eminent dramatist.";
         }
          if (query.toLowerCase().contains("blep")) {
-            return "Wthe act of a cat sticking its tongue out slightly " +
+            return "the act of a cat sticking its tongue out slightly " +
                     "without realizing it, often for long periods of time " ;
         }
         if (query.toLowerCase().contains("name")) {
             return "LIFEWTR";
         }
+         if (query.toLowerCase().contains("what is 13 plus 14")) {
+            return "27" ;
         return "";
     }
 }

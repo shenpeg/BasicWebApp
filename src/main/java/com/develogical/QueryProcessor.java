@@ -33,6 +33,9 @@ public class QueryProcessor {
         if (query.toLowerCase().contains("which of the following numbers is the largest: 53, 892")) {  
             return "892";
         }
+        if (query.toLowerCase().contains("what colour is a banana")) {  
+            return "yellow";
+        }
         return "";
         }
 }

@@ -48,6 +48,9 @@ public class QueryProcessor {
         if (query.toLowerCase().contains("what is the 13th number in the Fibonacci sequence")) {  
             return "144";
         }
+        if (query.toLowerCase().contains("which year was Theresa May first elected as the Prime Minister of Great Britain")) {  
+            return "2016";
+        }
         return "";
         }
 }
